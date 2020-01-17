@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Flexbox CSS implemented with classes",
   "main": "index.js",
-  "files": [
-    "flexbox.min.css"
-  ],
   "scripts": {
     "build": "cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output flexbox.min.css flexbox.css"
   },
