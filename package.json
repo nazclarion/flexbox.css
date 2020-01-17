@@ -1,0 +1,30 @@
+{
+  "name": "@nazclarion/flexbox.css",
+  "version": "1.0.0",
+  "description": "Flexbox CSS implemented with classes",
+  "main": "index.js",
+  "files": [
+    "flexbox.min.css"
+  ],
+  "scripts": {
+    "build": "cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output flexbox.min.css flexbox.css"
+  },
+  "keywords": [
+    "flexbox",
+    "css"
+  ],
+  "author": "Nazar Rozhok <nazclarion@gmail.com> (https://nazclarion.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "clean-css-cli": "^4.3.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazclarion/flexbox.css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nazclarion/flexbox.css/issues"
+  },
+  "homepage": "https://github.com/nazclarion/flexbox.css#readme"
+}
